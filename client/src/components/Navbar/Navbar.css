@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.underline-animation {
+    @apply 
+    relative 
+    after:content-[''] 
+    after:absolute 
+    after:top-6 
+    after:left-1/2
+    after:transform
+    after:-translate-x-1/2 
+    after:w-0
+    after:h-[2px] 
+    after:bg-white 
+    after:transition-all 
+    after:duration-300
+    hover:after:w-full;
+}

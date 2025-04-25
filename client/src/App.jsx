@@ -1,6 +1,7 @@
 import { Provider } from "react-redux";
-import "./App.css";
 import AppRoutes from "./Routes/AppRoutes";
+
+import "./App.css";
 import store from "./store/store";
 
 function App() {
