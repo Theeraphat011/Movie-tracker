@@ -67,10 +67,10 @@ const Homepage = () => {
 						<button
 							key={category}
 							onClick={() => handleCategoryClick(category)}
-							className={`px-4 py-2 rounded-full transition-all ${
+							className={`px-4 py-2 rounded-full transition-all duration-400 ${
 								selectedCategory === category
 									? "bg-red-500 text-white font-medium"
-									: "bg-black text-gray-300 hover:bg-gray-800 cursor-pointer"
+									: "bg-black text-gray-300 hover:bg-zinc-700 cursor-pointer"
 							}`}>
 							{category}
 						</button>
