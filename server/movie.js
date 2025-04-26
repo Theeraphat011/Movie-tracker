@@ -8,6 +8,8 @@ const movies = [
 		imdbRating: "6.8",
 		Director: "Kenneth Branagh",
 		Actors: "Chris Evans, Mark Ruffalo, Chris Hemsworth",
+		Runtime: "142 min",
+		Plot: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
 	},
 	{
 		id: 2,
@@ -18,6 +20,8 @@ const movies = [
 		imdbRating: "5.9",
 		Director: "Taika Waititi",
 		Actors: "Chris Evans, Robert Downey Jr., Mark Ruffalo",
+		Runtime: "175 min",
+		Plot: "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
 	},
 	{
 		id: 3,
@@ -28,6 +32,8 @@ const movies = [
 		imdbRating: "7.5",
 		Director: "Joe Russo",
 		Actors: "Chris Hemsworth, Chris Evans, Mark Ruffalo",
+		Runtime: "152 min",
+		Plot: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological tests of his ability to fight injustice."
 	},
 	{
 		id: 4,
@@ -38,6 +44,8 @@ const movies = [
 		imdbRating: "5.7",
 		Director: "Joss Whedon",
 		Actors: "Robert Downey Jr., Chris Evans, Scarlett Johansson",
+		Runtime: "154 min",
+		Plot: "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
 	},
 	{
 		id: 5,
@@ -48,6 +56,8 @@ const movies = [
 		imdbRating: "7.5",
 		Director: "Kenneth Branagh",
 		Actors: "Mark Ruffalo, Robert Downey Jr., Chris Evans",
+		Runtime: "142 min",
+		Plot: "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75."
 	},
 	{
 		id: 6,
@@ -58,6 +68,8 @@ const movies = [
 		imdbRating: "5.2",
 		Director: "Joe Russo",
 		Actors: "Chris Evans, Mark Ruffalo, Robert Downey Jr.",
+		Runtime: "148 min",
+		Plot: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
 	},
 	{
 		id: 7,
@@ -68,6 +80,8 @@ const movies = [
 		imdbRating: "6.7",
 		Director: "Taika Waititi",
 		Actors: "Robert Downey Jr., Chris Evans, Scarlett Johansson",
+		Runtime: "139 min",
+		Plot: "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more."
 	},
 	{
 		id: 8,
@@ -78,6 +92,8 @@ const movies = [
 		imdbRating: "5.7",
 		Director: "Kenneth Branagh",
 		Actors: "Mark Ruffalo, Chris Hemsworth, Robert Downey Jr.",
+		Runtime: "136 min",
+		Plot: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
 	},
 	{
 		id: 9,
@@ -88,6 +104,8 @@ const movies = [
 		imdbRating: "5.7",
 		Director: "Jon Favreau",
 		Actors: "Chris Hemsworth, Robert Downey Jr., Chris Evans",
+		Runtime: "201 min",
+		Plot: "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
 	},
 	{
 		id: 10,
@@ -98,6 +116,8 @@ const movies = [
 		imdbRating: "5.1",
 		Director: "Kenneth Branagh",
 		Actors: "Scarlett Johansson, Mark Ruffalo, Chris Hemsworth",
+		Runtime: "169 min",
+		Plot: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
 	},
 	{
 		id: 11,
@@ -108,196 +128,236 @@ const movies = [
 		imdbRating: "7.1",
 		Director: "Joss Whedon",
 		Actors: "Mark Ruffalo, Chris Evans, Robert Downey Jr.",
+		Runtime: "189 min",
+		Plot: "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift."
 	},
 	{
 		id: 12,
 		Title: "Gladiator",
 		Year: "2012",
 		Genre: "Adventure, Comedy",
-		Poster: "https://example.com/poster12.jpg",
+		Poster: "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png",
 		imdbRating: "5.7",
 		Director: "Joe Russo",
 		Actors: "Chris Hemsworth, Mark Ruffalo, Robert Downey Jr.",
+		Runtime: "155 min",
+		Plot: "A former Roman General seeks justice after the corrupt emperor murders his family and sends him into slavery."
 	},
 	{
 		id: 13,
 		Title: "The Lion King",
 		Year: "2013",
 		Genre: "Thriller, Sci-Fi",
-		Poster: "https://example.com/poster13.jpg",
+		Poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTqnL2i12hq2-9YtS9KdqeODbQfzhvUD74mg&s",
 		imdbRating: "8.0",
 		Director: "Taika Waititi",
 		Actors: "Mark Ruffalo, Scarlett Johansson, Chris Evans",
+		Runtime: "88 min",
+		Plot: "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself."
 	},
 	{
 		id: 14,
 		Title: "The Prestige",
 		Year: "2014",
 		Genre: "Thriller, Sci-Fi",
-		Poster: "https://example.com/poster14.jpg",
+		Poster: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Prestige_poster.jpg/250px-Prestige_poster.jpg",
 		imdbRating: "8.4",
 		Director: "Jon Favreau",
 		Actors: "Robert Downey Jr., Chris Hemsworth, Chris Evans",
+		Runtime: "130 min",
+		Plot: "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other."
 	},
 	{
 		id: 15,
 		Title: "The Departed",
 		Year: "2015",
 		Genre: "Thriller, Sci-Fi",
-		Poster: "https://example.com/poster15.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_.jpg",
 		imdbRating: "8.6",
 		Director: "Joe Russo",
 		Actors: "Robert Downey Jr., Chris Hemsworth, Scarlett Johansson",
+		Runtime: "151 min",
+		Plot: "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston."
 	},
 	{
 		id: 16,
 		Title: "The Avengers",
 		Year: "2016",
 		Genre: "Thriller, Sci-Fi",
-		Poster: "https://example.com/poster16.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
 		imdbRating: "7.6",
 		Director: "Joss Whedon",
 		Actors: "Mark Ruffalo, Robert Downey Jr., Chris Evans",
+		Runtime: "143 min",
+		Plot: "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity."
 	},
 	{
 		id: 17,
 		Title: "Avengers: Endgame",
 		Year: "2017",
 		Genre: "Thriller, Comedy",
-		Poster: "https://example.com/poster17.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
 		imdbRating: "7.1",
 		Director: "Kenneth Branagh",
 		Actors: "Mark Ruffalo, Scarlett Johansson, Chris Hemsworth",
+		Runtime: "181 min",
+		Plot: "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more to reverse Thanos' actions and restore balance to the universe."
 	},
 	{
 		id: 18,
 		Title: "Avengers: Infinity War",
 		Year: "2018",
 		Genre: "Adventure, Sci-Fi",
-		Poster: "https://example.com/poster18.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
 		imdbRating: "8.6",
 		Director: "Jon Favreau",
 		Actors: "Chris Evans, Chris Hemsworth, Mark Ruffalo",
+		Runtime: "149 min",
+		Plot: "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
 	},
 	{
 		id: 19,
 		Title: "Iron Man",
 		Year: "2019",
 		Genre: "Fantasy, Sci-Fi",
-		Poster: "https://example.com/poster19.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_.jpg",
 		imdbRating: "6.8",
 		Director: "Taika Waititi",
 		Actors: "Chris Evans, Chris Hemsworth, Scarlett Johansson",
+		Runtime: "126 min",
+		Plot: "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
 	},
 	{
 		id: 20,
 		Title: "Captain America: The Winter Soldier",
 		Year: "2000",
 		Genre: "Comedy, Drama",
-		Poster: "https://example.com/poster20.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_.jpg",
 		imdbRating: "7.1",
 		Director: "Taika Waititi",
 		Actors: "Chris Hemsworth, Scarlett Johansson, Mark Ruffalo",
+		Runtime: "136 min",
+		Plot: "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier."
 	},
 	{
 		id: 21,
 		Title: "Thor: Ragnarok",
 		Year: "2001",
 		Genre: "Action, Drama",
-		Poster: "https://example.com/poster21.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg",
 		imdbRating: "8.7",
 		Director: "Joe Russo",
 		Actors: "Chris Hemsworth, Robert Downey Jr., Scarlett Johansson",
+		Runtime: "130 min",
+		Plot: "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela."
 	},
 	{
 		id: 22,
 		Title: "Guardians of the Galaxy",
 		Year: "2002",
 		Genre: "Adventure, Fantasy",
-		Poster: "https://example.com/poster22.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_.jpg",
 		imdbRating: "7.0",
 		Director: "Joe Russo",
 		Actors: "Scarlett Johansson, Robert Downey Jr., Chris Evans",
+		Runtime: "121 min",
+		Plot: "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe."
 	},
 	{
 		id: 23,
 		Title: "Doctor Strange",
 		Year: "2003",
 		Genre: "Fantasy, Thriller",
-		Poster: "https://example.com/poster23.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg",
 		imdbRating: "7.4",
 		Director: "Jon Favreau",
 		Actors: "Chris Hemsworth, Chris Evans, Robert Downey Jr.",
+		Runtime: "115 min",
+		Plot: "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts."
 	},
 	{
 		id: 24,
 		Title: "Black Panther",
 		Year: "2004",
 		Genre: "Thriller, Comedy",
-		Poster: "https://example.com/poster24.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg",
 		imdbRating: "7.9",
 		Director: "Joss Whedon",
 		Actors: "Chris Hemsworth, Scarlett Johansson, Mark Ruffalo",
+		Runtime: "134 min",
+		Plot: "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past."
 	},
 	{
 		id: 25,
 		Title: "Spider-Man: No Way Home",
 		Year: "2005",
 		Genre: "Comedy, Action",
-		Poster: "https://example.com/poster25.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
 		imdbRating: "8.3",
 		Director: "Joss Whedon",
 		Actors: "Robert Downey Jr., Chris Hemsworth, Mark Ruffalo",
+		Runtime: "148 min",
+		Plot: "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man."
 	},
 	{
 		id: 26,
 		Title: "Joker",
 		Year: "2006",
 		Genre: "Drama, Fantasy",
-		Poster: "https://example.com/poster26.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
 		imdbRating: "5.0",
 		Director: "Jon Favreau",
 		Actors: "Mark Ruffalo, Chris Hemsworth, Chris Evans",
+		Runtime: "122 min",
+		Plot: "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker."
 	},
 	{
 		id: 27,
 		Title: "Django Unchained",
 		Year: "2007",
 		Genre: "Thriller, Sci-Fi",
-		Poster: "https://example.com/poster27.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg",
 		imdbRating: "7.9",
 		Director: "Jon Favreau",
 		Actors: "Mark Ruffalo, Chris Evans, Scarlett Johansson",
+		Runtime: "165 min",
+		Plot: "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi."
 	},
 	{
 		id: 28,
 		Title: "The Wolf of Wall Street",
 		Year: "2008",
 		Genre: "Action, Fantasy",
-		Poster: "https://example.com/poster28.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg",
 		imdbRating: "6.8",
 		Director: "Joss Whedon",
 		Actors: "Robert Downey Jr., Chris Evans, Mark Ruffalo",
+		Runtime: "180 min",
+		Plot: "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government."
 	},
 	{
 		id: 29,
 		Title: "Shutter Island",
 		Year: "2009",
 		Genre: "Action, Fantasy",
-		Poster: "https://example.com/poster29.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
 		imdbRating: "7.1",
 		Director: "Anthony Russo",
 		Actors: "Scarlett Johansson, Mark Ruffalo, Chris Hemsworth",
+		Runtime: "138 min",
+		Plot: "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane."
 	},
 	{
 		id: 30,
 		Title: "Whiplash",
 		Year: "2010",
 		Genre: "Adventure, Fantasy",
-		Poster: "https://example.com/poster30.jpg",
+		Poster: "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
 		imdbRating: "6.3",
 		Director: "Joss Whedon",
 		Actors: "Mark Ruffalo, Robert Downey Jr., Chris Evans",
+		Runtime: "106 min",
+		Plot: "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential."
 	},
 ];
 

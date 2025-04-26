@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const { getMovies, getMoviesById } = require("./controllers/controller");
+const { getMovies, getMoviesById } = require("./controllers/ControllerRoute");
 
 const app = express();
 

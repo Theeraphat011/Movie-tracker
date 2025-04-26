@@ -5,6 +5,7 @@ const initialState = {
 	movies: [],
 	status: "idle",
 	loading: true,
+	favorite: [],
 	error: null,
 };
 
@@ -15,6 +16,20 @@ const MoviesSlice = createSlice({
 		setLoading: (state, action) => {
 			state.loading = action.payload;
 		},
+		setFevorite: (state, action) => {
+			// Check if the movie is already in favorites
+			const movieTitle = action.payload;
+			const existingIndex = state.favorite.findIndex(title => title === movieTitle);
+			
+			if (existingIndex >= 0) {
+				// Remove from favorites if already exists
+				state.favorite = state.favorite.filter(title => title !== movieTitle);
+			} else {
+				// Add to favorites if not exists
+				state.favorite.push(movieTitle);
+			}
+			console.log("favorite:", state.favorite);
+		}
 	},
 	extraReducers: (builder) => {
 		builder
@@ -43,5 +58,5 @@ const MoviesSlice = createSlice({
 	},
 });
 
-export const { setLoading } = MoviesSlice.actions;
+export const { setLoading,setFevorite } = MoviesSlice.actions;
 export default MoviesSlice.reducer;

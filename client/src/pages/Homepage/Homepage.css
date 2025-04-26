@@ -1,2 +1,24 @@
 @import "tailwindcss";
 
+.movie-slider .swiper-slide {
+  visibility: hidden;
+  transition: none;
+}
+
+.movie-slider .swiper-slide-active {
+  visibility: visible;
+  z-index: 10;
+}
+
+.movie-slider .swiper-pagination-bullet {
+  background: #dc2626 !important;
+  opacity: 0.6;
+}
+
+.movie-slider .swiper-pagination-bullet-active {
+  background: #dc2626 !important;
+  opacity: 1;
+  width: 20px;
+  border-radius: 4px;
+}
+
