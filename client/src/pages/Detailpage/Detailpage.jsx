@@ -115,7 +115,7 @@ const Detailpage = () => {
 
 						<div>
 							<h3 className="text-lg font-semibold text-gray-300">Writers</h3>
-							<p className="text-gray-400">{movies.Writer}</p>
+							<p className="text-gray-400">{movies.Writers}</p>
 						</div>
 
 						<div>

@@ -21,8 +21,8 @@ const Navbar = () => {
 	}, [isOpen]);
 
 	return (
-		<nav className="fixed top-0 z-10 text-white bg-black/90 w-full">
-			<div className="container mx-auto md:flex md:justify-between sm:items-center gap-10">
+		<nav className="fixed top-0 z-10 text-white bg-black/90 w-full max-h-[90px]">
+			<div className="container mx-auto md:flex md:justify-between sm:items-center gap-10 h-full">
 				<figure className="relative flex justify-center items-center h-[100px] sm:pl-10">
 					<Link to="/">
 						<img
